@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% University/School Laboratory Report
+% LaTeX Template
+% Version 3.1 (25/3/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Linux and Unix Users Group at Virginia Tech Wiki 
+% (https://vtluug.org/wiki/Example_LaTeX_chem_lab_report)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\usepackage[version=3]{mhchem} % Package for chemical equation typesetting
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{verbatim}
+\usepackage[UTF8]{ctex}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+%\usepackage{times} % Uncomment to use the Times New Roman font
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{卷积神经网络调研报告} % Title
+
+\author{朱河勤} % Author name
+
+\date{\today} % Date for the report
+
+\begin{document}
+
+\maketitle % Insert the title, author and date
+
+
+\begin{comment}
+
+\begin{center}
+\begin{tabular}{l r}
+Date Performed: & January 1, 2012 \\ % Date the experiment was performed
+Partners: & James Smith \\ % Partner names
+& Mary Smith \\
+Instructor: & Professor Smith % Instructor/supervisor
+\end{tabular}
+\end{center}
+
+\end{comment}
+
+
+% If you wish to include an abstract,` uncomment the lines below
+% \begin{abstract}
+% Abstract text
+% \end{abstract}
+
+
+
+\section{Objective}
+
+
+\subsection{Definitions}
+\label{definitions}
+\begin{description}
+\item[Stoichiometry]
+The relationship between the relative quantities of substances taking part in a reaction or forming a compound, typically a ratio of whole integers.
+\item[Atomic mass]
+The mass of an atom of a chemical element expressed in atomic mass units. It is approximately equivalent to the number of protons and neutrons in the atom (the mass number) or to the average number allowing for the relative abundances of different isotopes. 
+\end{description} 
+
+
+\section{Experimental Data}
+
+\begin{tabular}{ll}
+Mass of empty crucible & \SI{7.28}{\gram}\\
+Mass of crucible and magnesium before heating & \SI{8.59}{\gram}\\
+Mass of crucible and magnesium oxide after heating & \SI{9.46}{\gram}\\
+Balance used & \#4\\
+Magnesium from sample bottle & \#1
+\end{tabular}
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{placeholder} % Include the image placeholder.png
+\caption{Figure caption.}
+\end{center}
+\end{figure}
+
+
+
+\section{Answers to Definitions}
+
+\begin{enumerate}
+\begin{item}
+\end{item}
+\end{enumerate}
+
+
+\begin{thebibliography}{9}%宽度9
+ \bibitem{bib:one}  Convolutional Neural Networks (LeNet) - DeepLearning 0.1 documentation. DeepLearning 0.1. LISA Lab. [2013-8-31]
+ \bibitem{bib.two}  Convolutional Neural Network.  Stanford university [2014-09-16]
+ \bibitem{bib.three} CNN 笔记：通俗理解卷积神经网络,  July, [2016-7-02]
+\end{thebibliography}
+\end{document}
